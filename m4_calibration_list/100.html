@@ -1,0 +1,116 @@
+﻿<!--
+##
+## Program Name :
+##     General purpose mobile information
+## Author :
+##     Liang
+## Organization :
+##     CTCI
+## Initial Release Date :
+##     2018/06/24
+## Description :
+##     The general purpose information display system
+## Version :
+##     0.1 - 2018/06/24
+##         Initial release
+##
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="../scripts/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+	<script src="../scripts/jquery_mobile/jquery-1.11.1.min.js"></script>
+	<script src="../scripts/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="./resource/icon/main.png">
+    <link rel="apple-touch-startup-image" href="./resource/icon/main.png">
+    <meta name="apple-mobile-web-app-title" content="">
+    <link rel="shortcut icon" href="./resource/icon/main.png">
+    <title></title>
+
+</head>
+
+<body>
+
+    <!--first page -->
+    <div data-role="page" id="page_main">
+        <div data-role="header">
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+            <h1>M4 Calibration List</h1>
+			<a href="index.html" class="ui-btn">Home</a>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page_main" class="ui-btn-active ui-state-persist">Main</a>
+                    </li>
+                    <li>
+                        <a href="#page_about" id="navResult" name="navResult">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navbar -->			
+        </div>
+		<div role="main" class="ui-content">
+		<h4>2018/6/24</h4>
+<ul data-role="listview" data-filter="true" data-filter-reveal="false" data-filter-placeholder="Search ..." data-inset="true">
+<li><h2>192937-PO-52171-KR</h2><p>SCN-1045S</p><p>ORIFICE PLATE</p><p>2018/6/19</p></li>
+
+</ul>
+        </div>
+        <!-- End of content -->
+        <div data-role="footer">
+            <h1>General Purpose Mobile Information</h1>
+        </div>
+        <!-- End of footer -->
+	</div>
+    <!-- End of page -->
+
+    <div data-role="page" id="page_about">
+        <div data-role="header">
+			<a href="#" class="ui-btn" data-rel="back">Back</a>
+            <h1>About</h1>
+			<a href="index.html" class="ui-btn">Home</a>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#page_main" >Main</a>
+                    </li>
+
+                    <li>
+                        <a href="#page_about" id="navResult" name="navResult" class="ui-btn-active ui-state-persist">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navbar -->			
+        </div>
+        <div data-role="content">
+<h4>Program Name :</h4>
+<p>     General Purpose Mobile Information</p>
+<h4> Author :</h4>
+<p>     Liang<p>
+<h4>Organization :</h4>
+<p>     CTCI</p>
+<h4>Initial Release Date :</h4>
+<p>     2018/06/24</p>
+<h4> Description :</h4>
+<p>     The general purpose information display system</p>
+<h4> Version :</h4>
+<h5>     0.1 - 2018/06/24</h5>
+<p>         Initial release</p>
+        </div>
+        <!-- End of content -->
+        <div data-role="footer">
+            <h1>General Purpose Mobile Information</h1>
+        </div>
+        <!-- End of footer -->
+	</div>
+    <!-- End of page -->
+
+
+
+
+</body>
+
+</html>
